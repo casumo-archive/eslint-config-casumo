@@ -24,3 +24,7 @@ Once the `eslint-config-casumo` package is installed, you can use it by specifyi
   }
 }
 ```
+_Note: We omitted the eslint-config- prefix since it is automatically assumed by ESLint._
+
+You can override settings from the shareable config by adding them directly into your .eslintrc file.
+
