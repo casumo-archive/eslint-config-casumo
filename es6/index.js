@@ -1,6 +1,7 @@
 module.exports = {
     extends: [
-        './no-rules-config.js'
+        './no-rules-config.js',
+        './stylistic-issues.js'
     ],
     rules: {}
 };
