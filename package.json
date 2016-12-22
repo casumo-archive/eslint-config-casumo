@@ -15,7 +15,8 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "validate-commit-msg",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "commitizen": "^2.9.2",
