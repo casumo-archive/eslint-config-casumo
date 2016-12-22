@@ -1,17 +1,17 @@
 {
   "name": "eslint-config-casumo",
   "version": "1.0.0",
-  "description": "Holds Casumo's base JS .eslintrc as an extensible shared config",
+  "description": "ESLint shareable config for the Casumo JavaScript code style",
   "main": "index.js",
-  "scripts": {},
+  "author": "Casumo",
+  "license": "MIT",
+  "homepage": "https://github.com/Casumo/eslint-config-casumo#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Casumo/eslint-config-casumo.git"
+    "url": "https://github.com/Casumo/eslint-config-casumo.git"
   },
-  "author": "",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Casumo/eslint-config-casumo/issues"
   },
-  "homepage": "https://github.com/Casumo/eslint-config-casumo#readme"
+  "scripts": {}
 }
