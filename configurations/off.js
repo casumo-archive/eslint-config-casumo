@@ -6,7 +6,8 @@ module.exports = {
         '../rules/eslint/node-js-and-common-js/off.js',
         '../rules/eslint/strict-mode/off.js',
         '../rules/eslint/stylistic-issues/off.js',
-        '../rules/eslint/variables/off.js'
+        '../rules/eslint/variables/off.js',
+        '../rules/eslint/deprecated/off.js'
     ],
     parserOptions: {
         ecmaVersion: 5,
