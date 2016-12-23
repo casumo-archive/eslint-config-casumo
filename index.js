@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        './configurations/es5-test.js',
+        './configurations/es5.js',
         './rules/eslint/deprecated/off.js'
     ]
 };
