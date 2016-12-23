@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        '../configurations/es5.js',
+        './es5.js',
         '../rules/eslint/ecma-script-6/on.js'
     ],
     parserOptions: {

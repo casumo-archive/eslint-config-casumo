@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        '../configurations/es6-test.js'
+        './es6-test.js'
     ],
     env: {
         mocha: true,

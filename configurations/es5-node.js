@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        '../configurations/es5.js',
+        './es5.js',
         '../rules/eslint/node-js-and-common-js/on.js'
     ],
     env: {
