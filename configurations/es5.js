@@ -7,6 +7,8 @@ module.exports = {
         '../rules/eslint/strict-mode/on.js',
         '../rules/eslint/stylistic-issues/on.js',
         '../rules/eslint/variables/on.js',
+        // The following line is needed since `eslint-find-rules -u` does not skip deprecated rules.
+        // This can be removed once https://github.com/sarbbottam/eslint-find-rules/issues/172 is resolved.
         '../rules/eslint/deprecated/off.js'
     ],
     parserOptions: {
