@@ -80,6 +80,6 @@ module.exports = {
         'space-unary-ops': 0,
         'spaced-comment': 0,
         'unicode-bom': 0,
-        'wrap-regex': 0,
+        'wrap-regex': 0
     }
 };
