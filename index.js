@@ -4,13 +4,13 @@ module.exports = {
         node: true
     },
     extends: [
-        './possible-errors.js',
-        './best-practices.js',
-        './strict-mode.js',
-        './variables.js',
-        './node-js-and-common-js.js',
-        './stylistic-issues.js',
-        './ecma-script-6.js'
+        './rules/possible-errors.js',
+        './rules/best-practices.js',
+        './rules/strict-mode.js',
+        './rules/variables.js',
+        './rules/node-js-and-common-js.js',
+        './rules/stylistic-issues.js',
+        './rules/ecma-script-6.js'
     ],
     rules: {},
     globals: {
