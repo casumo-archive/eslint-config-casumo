@@ -43,6 +43,16 @@ _Note: We omitted the `eslint-config-` prefix since it is automatically assumed 
 
 You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
 
+### Configuration structure
+- `casumo/rules/...` - grouping for rules by category (f.ex `eslint`, `mocha`, etc.)
+    - Each group ideally would have `on/off.js` configurations files which will be used for composing presets
+- `causmo/configuration/...` - composition of rules into 'presets'
+
+#### Why `on.js` and `off.js`?
+The idea is to always ship a complete list of ESLint rules and explicitly turn off rule groups which are not needed. This is mostly useful for when `eslint-find-rules` runs. In case any new rule is added the plugin will call out the missing rule.
+
+For example if we want to completely ignore `ecma-script-6` rules we just extend the configuration preset with `/rules/eslint/ecma-script-6/off.js`.
+
 ### Full configurations
 
 This package includes the following complete and ready to use configurations:
@@ -64,6 +74,22 @@ This package includes the following complete and ready to use configurations:
 - `lint` - lints the current project
 - `find-new-eslint-rules` - checks for new (missing) rules
 - `test` - runs a couple of tests
+
+## Contributing
+
+To contribute to the project, please follow these steps:
+
+0. File an issue with the idea you wish to put forward
+0. Fork the repo
+0. Make a branch for your change
+0. Run `npm` or `yarn install`
+0. Make your changes
+0. Run `npm` or `yarn test`
+0. Run `git add -A` to add your changes
+0. Run `npm` or `yarn run commit` (do not use git commit - unless you have [`commitizen`](https://github.com/commitizen/cz-cli) installed globally)
+0. Push your changes
+0. Create the Pull Request
+0. Get merged and 🎉!
 
 ## Thanks to
 - [eslint-config-walmart](https://github.com/walmartlabs/eslint-config-walmart) - for inspiration
