@@ -64,7 +64,7 @@ module.exports = {
         'one-var-declaration-per-line': 0,
         'one-var': [2, { var: 'always', let: 'never', const: 'never' }],
         'operator-assignment': 0,
-        'operator-linebreak': ['error', 'after'],
+        'operator-linebreak': [2, 'after'],
         'padded-blocks': 0,
         'quote-props': 0,
         quotes: [2, 'single'],
