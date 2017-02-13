@@ -20,6 +20,7 @@ module.exports = {
         'object-shorthand': 2,
         'prefer-arrow-callback': 1,
         'prefer-const': 2,
+        'prefer-destructuring': 2,
         'prefer-numeric-literals': 0,
         'prefer-rest-params': 0,
         'prefer-spread': 2,
