@@ -46,6 +46,7 @@ module.exports = {
         'no-lonely-if': 0,
         'no-mixed-operators': 0,
         'no-mixed-spaces-and-tabs': 0,
+        'no-multi-assign': 0,
         'no-multiple-empty-lines': 0,
         'no-negated-condition': 0,
         'no-nested-ternary': 0,
@@ -79,6 +80,7 @@ module.exports = {
         'space-infix-ops': 0,
         'space-unary-ops': 0,
         'spaced-comment': 0,
+        'template-tag-spacing': 0,
         'unicode-bom': 0,
         'wrap-regex': 0
     }
