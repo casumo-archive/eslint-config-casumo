@@ -7,10 +7,7 @@
   <a title='MIT License' href="https://opensource.org/licenses/MIT">
     <img src='https://img.shields.io/npm/l/eslint-config-casumo.svg?style=flat-square' />
   </a>
-  <a title='Downloads' href='http://npm-stat.com/charts.html?package=eslint-config-casumo&from=2015-08-01'>
-    <img src='https://img.shields.io/npm/dm/eslint-config-casumo.svg?style=flat-square' />
-  </a>
-    <a title='Commitizen friendly' href='http://commitizen.github.io/cz-cli/'>
+  <a title='Commitizen friendly' href='http://commitizen.github.io/cz-cli/'>
     <img src='https://img.shields.io/badge/commitizen-friendly-brightgreen.svg' />
   </a>
 </p>
@@ -30,7 +27,7 @@ place to capture these discussions for future generations.
 2. [Contribution](#contribution)
 
 ## ESLint Config
-To check how to use our eslint ruleset visit [eslint-config-casumo](./packages/eslint-config-casumo)
+To check how to install and use our ESLint rules visit [eslint-config-casumo](./packages/eslint-config-casumo).
 
 ## Style Guide
 
