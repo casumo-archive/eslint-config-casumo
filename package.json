@@ -1,0 +1,25 @@
+{
+  "name": "casumo-javascript",
+  "version": "1.0.0",
+  "description": "A guideline for using JavaScript at Casumo",
+  "main": "index.js",
+  "author": "Casumo",
+  "license": "MIT",
+  "homepage": "https://github.com/Casumo/eslint-config-casumo/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Casumo/eslint-config-casumo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Casumo/eslint-config-casumo/issues"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "commitmsg": "validate-commit-msg"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.2",
+    "cz-conventional-changelog": "^1.2.0",
+    "validate-commit-msg": "^2.8.2"
+  }
+}
