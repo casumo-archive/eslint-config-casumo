@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Casumo",
   "license": "MIT",
-  "homepage": "https://github.com/Casumo/eslint-config-casumo#readme",
+  "homepage": "https://github.com/Casumo/eslint-config-casumo/packages/eslint-config-casumo/#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/Casumo/eslint-config-casumo.git"
@@ -14,8 +14,6 @@
     "url": "https://github.com/Casumo/eslint-config-casumo/issues"
   },
   "scripts": {
-    "commit": "git-cz",
-    "commitmsg": "validate-commit-msg",
     "lint": "eslint .",
     "find-new-eslint-rules:es5-browser": "eslint-find-rules -u ./configurations/es5-browser.js",
     "find-new-eslint-rules:es5-node": "eslint-find-rules -u ./configurations/es5-node.js",
@@ -31,20 +29,8 @@
     "test": "npm-run-all --parallel lint find-new-eslint-rules"
   },
   "devDependencies": {
-    "commitizen": "^2.9.2",
-    "cz-conventional-changelog": "^1.2.0",
     "eslint": "^3.12.2",
     "eslint-find-rules": "^1.14.3",
-    "husky": "^0.12.0",
-    "npm-run-all": "^3.1.2",
-    "validate-commit-msg": "^2.8.2"
-  },
-  "peerDependencies": {
-    "eslint": "^3.12.2"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "npm-run-all": "^3.1.2"
   }
 }
