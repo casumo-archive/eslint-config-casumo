@@ -20,13 +20,17 @@ and we hope these are raised as issues for discussion so that we can make the be
 place to capture these discussions for future generations.
 
 # Table of Contents
-1. [Style Guide](#style-guide)
+1. [ESLint Config](#eslint-config)
+2. [Style Guide](#style-guide)
     1. [Method Definition](#method-definition)
     2. [Knockout Punches](#knockout-punches)
     3. [Multi line conditionals](#multi-line-conditionals)
     4. [Closing bracket for multi line expressions](#closing-bracket-for-multi-line-expressions)
     5. [Comments](#comments)
 2. [Contribution](#contribution)
+
+## ESLint Config
+To check how to use our eslint ruleset visit [eslint-config-casumo](./packages/eslint-config-casumo)
 
 ## Style Guide
 
@@ -137,6 +141,4 @@ function foo (bar) {
 
 The majority of the frontenders has to agree on something to be merged in.
 
-For the poll either use `Slack` or use :+1: and :-1: in the PR.
-
-Don't forget to link the poll / discussion.
+For the poll use :+1: and :-1: in the PR.
