@@ -1,4 +1,19 @@
-# Casumo Javascript Style Guide
+<h1 align="center">Casumo Javascript Style Guide</h1>
+
+<p align="center">
+  <a title='npm version' href="https://www.npmjs.com/package/eslint-config-casumo">
+    <img src='https://img.shields.io/npm/v/eslint-config-casumo.svg?style=flat-square' />
+  </a>
+  <a title='MIT License' href="https://opensource.org/licenses/MIT">
+    <img src='https://img.shields.io/npm/l/eslint-config-casumo.svg?style=flat-square' />
+  </a>
+  <a title='Downloads' href='http://npm-stat.com/charts.html?package=eslint-config-casumo&from=2015-08-01'>
+    <img src='https://img.shields.io/npm/dm/eslint-config-casumo.svg?style=flat-square' />
+  </a>
+    <a title='Commitizen friendly' href='http://commitizen.github.io/cz-cli/'>
+    <img src='https://img.shields.io/badge/commitizen-friendly-brightgreen.svg' />
+  </a>
+</p>
 
 Some code style choices are beyond the scope of linting and static analysis or are of particular interest to people,
 and we hope these are raised as issues for discussion so that we can make the best decision for the team. This is a
