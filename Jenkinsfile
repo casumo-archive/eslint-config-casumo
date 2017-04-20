@@ -10,9 +10,6 @@ try {
         stage("Tests") {
             sh("yarn test")
         }
-        stage('Finish') {
-            echo("Done. KTKSBAI!")
-        }
     }
 } catch (err) {
     def error = "${e}";
