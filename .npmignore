@@ -1,4 +1,4 @@
 node_modules
 .editorconfig
 .gitignore
-.travis.yml
+Jenkinsfile
