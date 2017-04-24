@@ -59,6 +59,7 @@ module.exports = {
         'no-underscore-dangle': 0,
         'no-unneeded-ternary': 0,
         'no-whitespace-before-property': 0,
+        'nonblock-statement-body-position': 0,
         'object-curly-newline': 0,
         'object-curly-spacing': 0,
         'object-property-newline': 0,
