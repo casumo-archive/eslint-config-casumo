@@ -1,5 +1,13 @@
 #!groovy
 try {
+    properties([
+        pipelineTriggers([
+            [
+                $class: 'hudson.triggers.TimerTrigger',
+                spec: "H 09 */1 * *"
+            ]
+        ])
+    ])
     node("ecs") {
         stage("Checkout") {
             checkout scm
@@ -11,7 +19,8 @@ try {
             sh("yarn test")
         }
     }
-} catch (err) {
-    def error = "${e}";
-    error "${error}"
+} catch (ex) {
+    def errorMessage = "[FAILURE]  💩  😭  😱  ${env.JOB_NAME} - Build #${env.BUILD_NUMBER} - ${env.BUILD_URL}console"
+    slackSend channel: "#frontend,", color: '#f05e5e', message: errorMessage
+    throw ex
 }
