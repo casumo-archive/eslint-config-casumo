@@ -29,7 +29,6 @@ module.exports = {
         'line-comment-position': 0,
         'linebreak-style': 0,
         'lines-around-comment': 0,
-        'lines-around-directive': 0,
         'lines-between-class-members': ['error', 'always'],
         'max-depth': ['error', 2],
         'max-len': [2, 110],
@@ -43,8 +42,6 @@ module.exports = {
         'multiline-comment-style': [2, 'starred-block'],
         'new-cap': 2,
         'new-parens': 0,
-        'newline-after-var': [2, 'always'],
-        'newline-before-return': 0,
         'newline-per-chained-call': 0,
         'no-array-constructor': 0,
         'no-bitwise': 2,
@@ -75,7 +72,19 @@ module.exports = {
         'operator-assignment': 0,
         'operator-linebreak': [2, 'after'],
         'padded-blocks': 0,
-        'padding-line-between-statements': [2, { blankLine: 'always', prev: 'var', next: 'return' }],
+        'padding-line-between-statements': [
+            2,
+            {
+                blankLine: 'always',
+                prev: ['const', 'let', 'var'],
+                next: '*'
+            },
+            {
+                blankLine: 'any',
+                prev: ['const', 'let', 'var'],
+                next: ['const', 'let', 'var']
+            }
+        ],
         'prefer-object-spread': 2,
         'quote-props': 0,
         quotes: [2, 'single'],
