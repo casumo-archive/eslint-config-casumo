@@ -17,7 +17,7 @@ module.exports = {
         'func-name-matching': 0,
         'func-names': 0,
         'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
-        'function-paren-newline': [2, 'multiline'],
+        'function-paren-newline': [2, 'consistent'],
         'id-blacklist': 0,
         'id-length': 0,
         'id-match': 0,
