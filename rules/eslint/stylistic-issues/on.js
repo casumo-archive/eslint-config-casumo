@@ -39,7 +39,7 @@ module.exports = {
         'max-statements-per-line': 0,
         'max-statements': ['error', 20],
         'multiline-ternary': 0,
-        'multiline-comment-style': [2, 'starred-block'],
+        'multiline-comment-style': 0,
         'new-cap': 2,
         'new-parens': 0,
         'newline-per-chained-call': 0,
