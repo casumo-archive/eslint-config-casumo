@@ -10,7 +10,7 @@
   <a title='Downloads' href='http://npm-stat.com/charts.html?package=eslint-config-casumo&from=2015-08-01'>
     <img src='https://img.shields.io/npm/dm/eslint-config-casumo.svg?style=flat-square' />
   </a>
-    <a title='Commitizen friendly' href='http://commitizen.github.io/cz-cli/'>
+  <a title='Commitizen friendly' href='http://commitizen.github.io/cz-cli/'>
     <img src='https://img.shields.io/badge/commitizen-friendly-brightgreen.svg' />
   </a>
 </p>
