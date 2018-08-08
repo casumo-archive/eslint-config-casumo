@@ -1,7 +1,6 @@
 module.exports = {
     rules: {
         'init-declarations': 0,
-        'no-catch-shadow': 0,
         'no-delete-var': 0,
         'no-label-var': 0,
         'no-restricted-globals': 0,

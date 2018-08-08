@@ -12,6 +12,7 @@ module.exports = {
         'dot-notation': 2,
         eqeqeq: 2,
         'guard-for-in': 2,
+        'max-classes-per-file': ['error', 1],
         'no-alert': 0,
         'no-caller': 2,
         'no-case-declarations': 0,
@@ -67,6 +68,7 @@ module.exports = {
         'prefer-promise-reject-errors': 2,
         radix: 2,
         'require-await': 0,
+        'require-unicode-regexp': 2,
         'vars-on-top': 2,
         'wrap-iife': 2,
         'yoda': 0

@@ -1,5 +1,8 @@
 module.exports = {
     rules: {
+        'for-direction': 2,
+        'getter-return': 2,
+        'no-async-promise-executor': 2,
         'no-await-in-loop': 0,
         'no-compare-neg-zero': 2,
         'no-cond-assign': 0,
@@ -20,6 +23,7 @@ module.exports = {
         'no-inner-declarations': 0,
         'no-invalid-regexp': 0,
         'no-irregular-whitespace': 0,
+        'no-misleading-character-class': 0,
         'no-obj-calls': 0,
         'no-prototype-builtins': 0,
         'no-regex-spaces': 0,
@@ -29,6 +33,7 @@ module.exports = {
         'no-unreachable': 2,
         'no-unsafe-finally': 0,
         'no-unsafe-negation': 0,
+        'require-atomic-updates': 2,
         'use-isnan': 0,
         'valid-jsdoc': 0,
         'valid-typeof': 0

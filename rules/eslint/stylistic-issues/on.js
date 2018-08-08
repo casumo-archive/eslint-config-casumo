@@ -1,6 +1,8 @@
 module.exports = {
     rules: {
+        'array-bracket-newline': [2, 'consistent'],
         'array-bracket-spacing': [2, 'never'],
+        'array-element-newline': [2, 'consistent'],
         'block-spacing': 0,
         'brace-style': 2,
         camelcase: 2,
@@ -15,9 +17,11 @@ module.exports = {
         'func-name-matching': 0,
         'func-names': 0,
         'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
+        'function-paren-newline': [2, 'consistent'],
         'id-blacklist': 0,
         'id-length': 0,
         'id-match': 0,
+        'implicit-arrow-linebreak': [2, 'beside'],
         indent: [2, 4, { SwitchCase: 1 }],
         'jsx-quotes': 0,
         'key-spacing': [2, { afterColon: true }],
@@ -25,19 +29,19 @@ module.exports = {
         'line-comment-position': 0,
         'linebreak-style': 0,
         'lines-around-comment': 0,
-        'lines-around-directive': 0,
+        'lines-between-class-members': ['error', 'always'],
         'max-depth': ['error', 2],
         'max-len': [2, 110],
         'max-lines': 0,
+        'max-lines-per-function': 0,
         'max-nested-callbacks': ['error', 3],
         'max-params': ['error', 10],
         'max-statements-per-line': 0,
         'max-statements': ['error', 20],
         'multiline-ternary': 0,
+        'multiline-comment-style': 0,
         'new-cap': 2,
         'new-parens': 0,
-        'newline-after-var': [2, 'always'],
-        'newline-before-return': 0,
         'newline-per-chained-call': 0,
         'no-array-constructor': 0,
         'no-bitwise': 2,
@@ -68,10 +72,30 @@ module.exports = {
         'operator-assignment': 0,
         'operator-linebreak': [2, 'after'],
         'padded-blocks': 0,
+        'padding-line-between-statements': [
+            2,
+            {
+                blankLine: 'always',
+                prev: ['const', 'let', 'var'],
+                next: '*'
+            },
+            {
+                blankLine: 'any',
+                prev: ['const', 'let', 'var'],
+                next: ['const', 'let', 'var']
+            },
+            {
+                blankLine: 'always',
+                prev: '*',
+                next: 'return'
+            }
+        ],
+        'prefer-object-spread': 2,
         'quote-props': 0,
         quotes: [2, 'single'],
         'require-jsdoc': 0,
         'semi-spacing': 0,
+        'semi-style': ['error', 'last'],
         semi: 2,
         'sort-keys': 0,
         'sort-vars': 0,
@@ -81,6 +105,7 @@ module.exports = {
         'space-infix-ops': 2,
         'space-unary-ops': [2, { words: false, nonwords: false }],
         'spaced-comment': 0,
+        'switch-colon-spacing': ['error', {'after': true, 'before': false}],
         'template-tag-spacing': [2, 'always'],
         'unicode-bom': 0,
         'wrap-regex': 0

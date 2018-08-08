@@ -18,7 +18,6 @@ module.exports = {
         'no-class-assign': 0,
         'no-dupe-class-members': 0,
         'no-this-before-super': 0,
-        'prefer-reflect': 0,
         strict: [2, 'global']
     }
 };
