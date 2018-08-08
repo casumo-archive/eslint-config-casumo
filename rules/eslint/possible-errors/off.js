@@ -2,7 +2,7 @@ module.exports = {
     rules: {
         'for-direction': 0,
         'getter-return': 0,
-        'no-async-promise-executor': 2,
+        'no-async-promise-executor': 0,
         'no-await-in-loop': 0,
         'no-compare-neg-zero': 0,
         'no-cond-assign': 0,

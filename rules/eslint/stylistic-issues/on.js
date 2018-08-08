@@ -83,6 +83,11 @@ module.exports = {
                 blankLine: 'any',
                 prev: ['const', 'let', 'var'],
                 next: ['const', 'let', 'var']
+            },
+            {
+                blankLine: 'always',
+                prev: '*',
+                next: 'return'
             }
         ],
         'prefer-object-spread': 2,
