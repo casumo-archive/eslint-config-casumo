@@ -71,6 +71,7 @@ module.exports = {
         'require-unicode-regexp': 2,
         'vars-on-top': 2,
         'wrap-iife': 2,
-        'yoda': 0
+        'yoda': 0,
+        'no-useless-catch': 2
     }
 };
