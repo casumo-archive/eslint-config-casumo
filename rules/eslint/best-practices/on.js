@@ -59,6 +59,7 @@ module.exports = {
         'no-unused-expressions': 2,
         'no-unused-labels': 0,
         'no-useless-call': 0,
+        'no-useless-catch': 2,
         'no-useless-concat': 0,
         'no-useless-escape': 0,
         'no-useless-return': 0,
@@ -71,7 +72,6 @@ module.exports = {
         'require-unicode-regexp': 2,
         'vars-on-top': 2,
         'wrap-iife': 2,
-        'yoda': 0,
-        'no-useless-catch': 2
+        'yoda': 0
     }
 };
