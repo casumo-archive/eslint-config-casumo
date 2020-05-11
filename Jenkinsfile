@@ -21,6 +21,6 @@ try {
     }
 } catch (ex) {
     def errorMessage = "[FAILURE]  💩  😭  😱  ${env.JOB_NAME} - Build #${env.BUILD_NUMBER} - ${env.BUILD_URL}console"
-    slackSend channel: "#toolingtest-alerts,", color: '#f05e5e', message: errorMessage
+    slackSend channel: "#frontend,", color: '#f05e5e', message: errorMessage
     throw ex
 }
