@@ -8,7 +8,7 @@ try {
             ]
         ])
     ])
-    node("ecs") {
+    node("js-builder") {
         stage("Checkout") {
             checkout scm
         }
