@@ -27,7 +27,7 @@
     "find-new-eslint-rules:es6-test": "eslint-find-rules -u ./configurations/es6-test.js",
     "find-new-eslint-rules:es6": "eslint-find-rules -u ./configurations/es6.js",
     "find-new-eslint-rules:off": "eslint-find-rules -u ./configurations/off.js",
-    "find-new-eslint-rules": "npm-run-all --parallel find-new-eslint-rules:*",
+    "find-new-eslint-rules": "npm-run-all find-new-eslint-rules:*",
     "test": "npm-run-all lint find-new-eslint-rules"
   },
   "devDependencies": {
