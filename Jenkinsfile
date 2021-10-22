@@ -29,11 +29,9 @@ try {
     throw ex
 }
 
-String bash(String command) {
-    return sh(script: """#!/usr/bin/env bash
-    source ~/.bash_profile 2> /dev/null
-    ${command}
-    """, 
-    returnStdout: true,
+void bash(String command) {
+    sh(script: """#!/usr/bin/env bash
+source ~/.bash_profile 2> /dev/null
+${command}""",
     label: "${command}")
 }
