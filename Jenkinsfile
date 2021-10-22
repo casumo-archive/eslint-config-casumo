@@ -12,17 +12,15 @@ try {
         stage("Checkout") {
             checkout scm
         }
-        stage("Install nvm") {
-            shell("set +x; nvm install")
-        }
-        stage("Install yarn") {
-            shell("npm install --global yarn")
+        stage("Install node and yarn") {
+            bash "set +x; nvm install && nvm alias default \$(node -v)"
+            bash "npm install --global yarn"
         }
         stage("Install dependencies") {
-            shell("yarn install")
+            bash "yarn install"
         }
         stage("Tests") {
-            shell("yarn test")
+            bash "yarn test"
         }
     }
 } catch (ex) {
@@ -31,13 +29,9 @@ try {
     throw ex
 }
 
-def shell(cmd) {
-    sh """
-    set +x
-    cd ..
-    export NVM_DIR="$HOME/.nvm"
-    . ~/.nvm/nvm.sh
-    cd -
-    set -x
-    ${cmd}"""
+void bash(String command) {
+    sh(script: """#!/usr/bin/env bash
+source ~/.bash_profile 2> /dev/null
+${command}""",
+    label: "${command}")
 }
