@@ -13,7 +13,7 @@ try {
             checkout scm
         }
         stage("Install node and yarn") {
-            bash "nvm install && nvm alias default \$(node -v)"
+            bash "set +x; nvm install && nvm alias default \$(node -v)"
             bash "npm install --global yarn"
         }
         stage("Install dependencies") {
